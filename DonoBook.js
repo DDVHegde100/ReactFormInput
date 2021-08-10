@@ -75,7 +75,7 @@ export default class AuthenticationScreen extends Component{
                                 maxLength={10}
                                 onChangeText={(text)=>{
                                     this.setState({
-                                        firstName:text
+                                        firstName: text
                                     })
                                 }}
                         </TextInput>
@@ -84,7 +84,7 @@ export default class AuthenticationScreen extends Component{
                                 maxLength={10}
                                 onChangeText={(text)=>{
                                     this.setState({
-                                        lastName:text
+                                        lastName: text
                                     })
                                 }}
                         </TextInput>
@@ -94,7 +94,7 @@ export default class AuthenticationScreen extends Component{
                                 keyboardType={'numeric'}
                                 onChangeText={(text)=>{
                                     this.setState({
-                                        contact:text
+                                        contact: text
                                     })
                                 }}
                         </TextInput>
@@ -103,7 +103,7 @@ export default class AuthenticationScreen extends Component{
                                 multiline={true}
                                 onChangeText={(text)=>{
                                     this.setState({
-                                        address:text
+                                        address: text
                                     })
                                 }}
                         </TextInput>
@@ -121,7 +121,7 @@ export default class AuthenticationScreen extends Component{
                                 secureTextEntry={true}
                                 onChangeText={(text)=>{
                                     this.setState({
-                                        password:text
+                                        password: text
                                     })
                                 }}
                         </TextInput>
@@ -130,7 +130,7 @@ export default class AuthenticationScreen extends Component{
                                 secureTextEntry={true}
                                 onChangeText={(text)=>{
                                     this.setState({
-                                        confirmPasword:text
+                                        confirmPasword: text
                                     })
                                 }}
                         </TextInput>
