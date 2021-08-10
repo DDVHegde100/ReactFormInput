@@ -99,15 +99,6 @@ export default class AuthenticationScreen extends Component{
                                 }}
                         </TextInput>
                         <TextInput style={styles.FormInput}>
-                                placeholder={"Address"}
-                                multiline={true}
-                                onChangeText={(text)=>{
-                                    this.setState({
-                                        address: text
-                                    })
-                                }}
-                        </TextInput>
-                        <TextInput style={styles.FormInput}>
                                 placeholder={"Email Adress"}
                                 maxLength={20}
                                 onChangeText={(text)=>{
