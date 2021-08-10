@@ -151,10 +151,10 @@ export default class AuthenticationScreen extends Component{
                             }}>
                                <Text styles={{ fontSize='25',fontFamily= 'Times New Roman', fontColor='red'}}>Click to Cancel.</Text>   
                             </TouchableOpacity>
-                        </View>
-                </KeyboardAvoidingView>
-                </ScrollView>    
-            </View>
+                            </View>
+                        </KeyboardAvoidingView>
+                    </ScrollView>    
+                </View>
             </Modal>
         )
     }
